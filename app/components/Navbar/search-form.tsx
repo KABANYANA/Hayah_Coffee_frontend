@@ -51,7 +51,7 @@ const CoffeeSearchForm: React.FC<CoffeeSearchFormProps> = ({
     <div className="flex flex-col sm:flex-row">
       <input
         type="text"
-        placeholder="Search for movies..."
+        placeholder="Search for coffee..."
         className="search px-4 py-2 rounded-full border border-white text-white bg-black text-lg focus:outline-none focus:ring focus:border-white-300 mb-2 sm:mb-0"
         value={query}
         onChange={(e) => onQueryChange(e.target.value)}
